@@ -19,13 +19,13 @@ function doMath(){
   function result(num1, num2, operator) {
     if (operator === '+' )
     {
-      var result = num1 + num2;
-      return result
+      var total = num1 + num2;
+      return total
 
     }
 
   }
-  console.log(result)
+  console.log(total)
 
 
   });
