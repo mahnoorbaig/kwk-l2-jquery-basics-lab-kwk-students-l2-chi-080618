@@ -14,6 +14,8 @@ function doMath(){
   num2 = parseFloat(num2.val());
   operator = operator.val();
   
+  
+  
   function result(num1, num2, operator)
   {
     if (operator === '+' )
