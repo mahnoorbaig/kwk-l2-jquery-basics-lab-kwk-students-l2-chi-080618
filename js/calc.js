@@ -27,7 +27,7 @@ function doMath(){
   num2 = parseFloat(num2.val());
   operator = operator.val();
   
-  
+  $("#img3")
   });
  
   });
