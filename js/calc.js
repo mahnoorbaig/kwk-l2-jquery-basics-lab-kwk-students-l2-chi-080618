@@ -29,7 +29,7 @@ function doMath(){
   
   let ans = result(num1new, num2new, operatornew)
   console.log(ans)
-  $("#equals").on("click", result);
+ // $("#equals").on("click", result);
   
    $("#result").val("helloworld")
   
