@@ -22,6 +22,7 @@ function doMath(){
     {
       var total = num1 + num2;
       return total
+      console.log(to)
     }
   }
 
