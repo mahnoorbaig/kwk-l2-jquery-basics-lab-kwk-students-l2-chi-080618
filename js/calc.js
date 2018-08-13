@@ -28,8 +28,7 @@ function doMath(){
   operator = operator.val();
   
   
-  
+  $('#result');
  
-
   });
 }
