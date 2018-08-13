@@ -28,7 +28,7 @@ function doMath(){
   operatornew = operator.val();
   
   let ans = result(num1new, num2new, operatornew)
-  
+  console.log(ans)
   $("#equals").on("click", result);
   
   // $("#result")
