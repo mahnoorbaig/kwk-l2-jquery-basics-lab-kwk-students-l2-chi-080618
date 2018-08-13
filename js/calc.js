@@ -9,24 +9,25 @@ var num2 = $('#number2');
 var operator = $('#operation');
 
  function result(num1, num2, operator) {
+    var total = 0;
+    
     if (operator === '+' )
     {
-      var total = num1 + num2;
+      total = num1 + num2;
     }
     
-    if (operator === '-' )
+    else if (operator === '-' )
     {
-      var total = num1 - num2;
+      total = num1 - num2;
     }
     
-    if (operator === '*' )
+    else if (operator === '*' )
     {
-      var total = num1 * num2;
+      total = num1 * num2;
     }
-    
-    if (operator === '/' )
+    else if (operator === '/' )
     {
-      var total = num1 / num2;
+      total = num1 / num2;
     }
 
     return total
