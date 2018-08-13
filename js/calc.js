@@ -29,6 +29,7 @@ function doMath(){
   
   result(num1new, num2new, operatornew)
   
+  $("#equals").on("click", markCell);
   
   // $("#result")
   
