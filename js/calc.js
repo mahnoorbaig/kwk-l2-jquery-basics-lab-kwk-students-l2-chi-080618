@@ -9,9 +9,6 @@ var num2 = $('#number2');
 var operator = $('#operation');
 
  function result(num1, num2, operator) {
-     num1 = parseFloat(num1.val());
-  num2 = parseFloat(num2.val());
-  operator = operator.val();
     if (operator === '+' )
     {
       var total = num1 + num2;
@@ -26,7 +23,9 @@ var operator = $('#operation');
 
 function doMath(){
   $("#equals").on('click', function(){
-
+  num1 = parseFloat(num1.val());
+  num2 = parseFloat(num2.val());
+  operator = operator.val();
   
   
   
