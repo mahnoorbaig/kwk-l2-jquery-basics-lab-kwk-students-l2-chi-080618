@@ -23,11 +23,11 @@ var operator = $('#operation');
 
 function doMath(){
   $("#equals").on('click', function(){
-  num1 = parseFloat(num1.val());
-  num2 = parseFloat(num2.val());
-  operator = operator.val();
+  num1new = parseFloat(num1.val());
+  num2new = parseFloat(num2.val());
+  operatornew = operator.val();
   
-  this.
+  result(num1new, num2new, operatornew)
   
   
   // $("#result")
