@@ -14,7 +14,11 @@ function doMath(){
   num2 = parseFloat(num2.val());
   operator = operator.val();
     result(num1, num2, operator)
-    if (operation == +)
+    if (operator == "+")
+    {
+      result = num1 + num2
+      return result
+    }
  
     
   });
