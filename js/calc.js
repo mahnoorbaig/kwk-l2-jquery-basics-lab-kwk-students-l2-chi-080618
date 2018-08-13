@@ -30,7 +30,7 @@ function doMath(){
   
   $('#equals').click(function(){
     alert(total)
-  }
+  });
  
   });
 }
