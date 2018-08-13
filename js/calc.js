@@ -12,7 +12,14 @@ var operator = $('#operation');
     if (operator === '+' )
     {
       var total = num1 + num2;
-      return total
+    }
+    else if 
+      
+    
+    
+
+    return total
+    
 
     }
  // console.log(total)
