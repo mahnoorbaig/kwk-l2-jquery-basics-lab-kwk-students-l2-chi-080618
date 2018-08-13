@@ -28,8 +28,6 @@ function doMath(){
   operator = operator.val();
   
   
-  $('#equals').click(function(){
-    alert(total)
   });
  
   });
