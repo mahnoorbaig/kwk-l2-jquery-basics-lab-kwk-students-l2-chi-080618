@@ -27,7 +27,8 @@ function doMath(){
   num2 = parseFloat(num2.val());
   operator = operator.val();
   
-  $("#result").show();
+  $("#result").val(total);
+  
   });
  
   });
