@@ -20,9 +20,9 @@ function doMath(){
   {
     if (operator === '+' )
     {
-      var total = num1 + num2;
-      return total
-      console.log(total)
+      var result = num1 + num2;
+      return result
+      console.log(result)
     }
   }
 
