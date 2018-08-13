@@ -13,7 +13,7 @@ function doMath(){
   num1 = parseFloat(num1.val());
   num2 = parseFloat(num2.val());
   operator = operator.val();
-    result(num1, num2, operator);
+  //  result(num1, num2, operator);
     if (operator === '+' )
     {
       result = num1 + num2;
