@@ -25,11 +25,10 @@ var operator = $('#operation');
     {
       var total = num1 / num2;
     }
-    else
-    {
-      console.log("")
-    }
-    
+    // else
+    // {
+    //   console.log("")
+    // }
 
     return total
     
