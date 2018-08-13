@@ -29,9 +29,6 @@ var operator = $('#operation');
   
 function doMath(){
   $("#equals").on('click', function(){
-
-  
-  
   
 
 
