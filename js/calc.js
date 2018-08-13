@@ -17,6 +17,7 @@ function doMath(){
     if (operator === '+' )
     {
       result = num1 + num2;
+      $(.result)
     }
     
   });
