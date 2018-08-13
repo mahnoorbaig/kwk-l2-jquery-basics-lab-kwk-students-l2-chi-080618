@@ -13,22 +13,21 @@ var operator = $('#operation');
     {
       var total = num1 + num2;
     }
-    else if (operator === '-' )
+    
+    if (operator === '-' )
     {
       var total = num1 - num2;
     }
-    else if (operator === '*' )
+    
+    if (operator === '*' )
     {
       var total = num1 * num2;
     }
-    else if (operator === '/' )
+    
+    if (operator === '/' )
     {
       var total = num1 / num2;
     }
-    // else
-    // {
-    //   console.log("")
-    // }
 
     return total
     
@@ -36,9 +35,6 @@ var operator = $('#operation');
     }
  // console.log(total)
   }
-
-
-
 
 function doMath(){
   $("#equals").on('click', function(){
