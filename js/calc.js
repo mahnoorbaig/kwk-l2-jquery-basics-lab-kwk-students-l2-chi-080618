@@ -31,7 +31,7 @@ function doMath(){
   console.log(ans)
  // $("#equals").on("click", result);
   
-   $("#result").html(5)
+   $("#result").html(ans)
   
   });
  
