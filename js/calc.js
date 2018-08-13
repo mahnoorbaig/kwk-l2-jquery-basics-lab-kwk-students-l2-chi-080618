@@ -27,7 +27,7 @@ function doMath(){
   num2new = parseFloat(num2.val());
   operatornew = operator.val();
   
-  result(num1new, num2new, operatornew)
+  let ans = result(num1new, num2new, operatornew)
   
   $("#equals").on("click", result);
   
