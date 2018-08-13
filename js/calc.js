@@ -25,7 +25,8 @@ function doMath(){
     }
 
   }
+  console.log(result)
 
-    
+
   });
 }
