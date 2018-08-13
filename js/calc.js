@@ -15,7 +15,7 @@ var operator = $('#operation');
       return total
 
     }
-  console.log(total)
+ // console.log(total)
   }
 
 
