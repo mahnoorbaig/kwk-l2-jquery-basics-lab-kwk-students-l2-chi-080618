@@ -13,9 +13,22 @@ var operator = $('#operation');
     {
       var total = num1 + num2;
     }
-    else if 
-      
-    
+    else if (operator === '-' )
+    {
+      var total = num1 - num2;
+    }
+    else if (operator === '*' )
+    {
+      var total = num1 * num2;
+    }
+    else if (operator === '/' )
+    {
+      var total = num1 / num2;
+    }
+    else
+    {
+      console.log("")
+    }
     
 
     return total
